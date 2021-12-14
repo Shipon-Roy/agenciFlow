@@ -7,14 +7,16 @@ const Home = () => {
     return (
         <div>
             {/* banner section  */}
+            <div className="bg-info p-5">
             <div className="container my-5">
                 <div className="text-center">
-                <h1 className="text-success">The All-In-One Platform <br />
+                <h1 className="text-white">The All-In-One Platform <br />
                 For Agency Owners</h1>
-                <p className="my-3">Get Paid, Communicate with Clients, and <br />
+                <p className="my-5">Get Paid, Communicate with Clients, and <br />
                  Manage Projects & Tasks - All on the same platform.</p>
                 <button className="btn btn-info">Try for Free</button>
                 </div>
+            </div>
             </div>
             {/* banner section  */}
             {/* about section  */}
